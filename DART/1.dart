@@ -63,3 +63,13 @@
 //   String fullname = "$fname $lname";
 //   print(fullname);
 // }
+
+import 'Student.dart';
+
+void main(){
+  Student s1 = Student("Puspendar", 22, "A+", "Ahmedabad");
+  s1.name = "Puspendar";
+  print(s1.name);
+  print(s1.marks);
+  print(s1.city);
+}
