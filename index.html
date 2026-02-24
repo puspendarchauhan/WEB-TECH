@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Async Button Example</title>
+</head>
+<body>
+
+<h1 id="msg">Welcome to my web technology class</h1>
+
+<button onclick="changeText()">Click Me</button>
+
+<script>
+  function changeText() {
+    setTimeout(() => {
+      document.getElementById("msg").innerText = "Thanks for joining the class!";
+    }, 2000);
+  }
+</script>
+
+<h2>Welcome to the ES6</h2>
+
+</body>
+</html>
